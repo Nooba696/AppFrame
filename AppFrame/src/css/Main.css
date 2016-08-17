@@ -1,0 +1,64 @@
+.bg
+{
+  -fx-background-color:rgba(255,153,0,0.75);
+  -fx-background-insets:20;
+  -fx-border-color:rgba(255,0,0,0.75);
+  -fx-border-style:segments(12, 20, 40, 20);
+  -fx-border-insets:17;
+  -fx-border-width:6;
+}
+.see
+{
+	-fx-fill: white;
+	-fx-stroke: white;
+    -fx-stroke-width: 2;
+    -fx-effect: dropshadow( gaussian  , black , 5,0.15,0,0 );
+}
+.bar 
+{ 
+	-fx-fill: #DAE3F3;
+	-fx-stroke: white;
+    -fx-stroke-width: 5;
+    -fx-effect: dropshadow( gaussian  , black , 10,0.15,0,0 );  
+}
+.filler 
+{ 
+	
+	-fx-fill: white;
+    -fx-effect: dropshadow( gaussian  , black , 20,0.15,0,0 );  
+}
+.button
+{ 
+	-fx-fill: #DEEBF7;
+	-fx-stroke: white;
+    -fx-stroke-width: 2;
+    
+}
+.hover
+{ 
+	-fx-fill: #BDD7EE;
+	-fx-stroke: white;
+    -fx-stroke-width: 2;
+    
+}
+
+.dragTopBottom 
+{ 
+	-fx-opacity:00.0;
+	-fx-cursor: v-resize;
+}
+.dragLeftRight
+{ 
+	-fx-opacity:00.0;
+	-fx-cursor: h-resize;
+}
+.dragLeftDiag
+{ 
+	-fx-opacity:00.0;
+	-fx-cursor: se-resize;
+}
+.dragRightDiag
+{ 
+	-fx-opacity:00.0;
+	-fx-cursor: sw-resize;
+}
